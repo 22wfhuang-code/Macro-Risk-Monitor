@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Macro Risk Monitor — Archive</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+  <style>
+:root{
+  --bg:#ffffff; --fg:#0b1220; --muted:#526072; --line:#e6ebf2; --soft:#f6f8fb;
+  --up:#b45309; --down:#0f766e; --risk:#b91c1c;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,"Noto Sans";}
+.wrap{max-width:980px;margin:0 auto;padding:22px 16px 28px}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;letter-spacing:.08em;font-size:14px}
+.meta{margin-top:6px;color:var(--muted);font-size:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.dot{opacity:.7}
+.links{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center}
+.link{font-size:12px;color:var(--fg);text-decoration:none;border:1px solid var(--line);padding:6px 10px;border-radius:10px;background:#fff}
+.link:hover{background:var(--soft)}
+.linkBtn{font-size:12px;color:var(--fg);border:1px solid var(--line);padding:6px 10px;border-radius:10px;background:#fff;cursor:pointer}
+.linkBtn:hover{background:var(--soft)}
+.grid{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.panel{border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px;background:#fff}
+.span2{grid-column:1 / span 2}
+.panelTitle{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--muted);margin-bottom:10px}
+.kv{display:grid;grid-template-columns:1fr auto;gap:10px 12px;align-items:baseline}
+.k{font-size:12px;color:var(--muted);letter-spacing:.05em}
+.v{font-size:22px;font-weight:800;text-align:right}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+.note{margin-top:10px;font-size:12px;color:var(--muted)}
+.small{margin-top:10px;font-size:12px;color:var(--muted);line-height:1.4}
+.tableHead{display:grid;grid-template-columns:40px 1fr 90px;padding:10px 10px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px;color:var(--muted);letter-spacing:.05em}
+.rows .row{display:grid;grid-template-columns:40px 1fr 90px;padding:10px 10px;border-bottom:1px solid var(--line);align-items:center}
+.rows .row:last-child{border-bottom:none}
+.right{text-align:right}
+.up{color:var(--up)} .down{color:var(--down)} .risk{color:var(--risk)}
+.footer{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div>
+        <div class="brand">MACRO RISK MONITOR</div>
+        <div class="meta">
+          <span>ARCHIVE</span>
+          <span class="dot">•</span>
+          <a class="link" href="/index.html">Latest</a>
+        </div>
+      </div>
+      <div class="links">
+        <a class="link" href="/data/latest.json" target="_blank" rel="noopener">latest.json</a>
+      </div>
+    </header>
+
+    <section style="margin-top:18px;">
+      <div class="small">Newest first. Each page is a static snapshot.</div>
+      
+        <div class="panel" style="margin-top:12px;">
+          <div class="panelTitle">SNAPSHOT — <a class="link" href="/archive/2026-02-25.html">2026-02-25</a></div>
+          <div class="kv">
+            <div class="k">RISK</div><div class="v">69</div>
+            <div class="k">1D Δ</div><div class="v">+14.39</div>
+            <div class="k">REGIME</div><div class="v mono">NEUTRAL_RISING</div>
+            <div class="k">MAINLINE</div><div class="v mono">GEOPOLITICS</div>
+            <div class="k">SHARE</div><div class="v">78%</div>
+            <div class="k">TOP FACTOR</div><div class="v mono">GEOPOLITICS 82</div>
+          </div>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+      <div class="small">Generated automatically by main.py</div>
+    </footer>
+  </main>
+</body>
+</html>
