@@ -1,0 +1,294 @@
+{
+  "as_of": "2026-02-27T10:31:21.007638+00:00",
+  "date": "2026-02-27",
+  "topic": "macro",
+  "risk_score": 47.4,
+  "delta_1d": -0.4,
+  "regime": "neutral",
+  "mainline_theme": "liquidity",
+  "risk_factors": [
+    {
+      "name": "liquidity",
+      "score": 42.68,
+      "weight": 0.18,
+      "contrib": -1.3176
+    },
+    {
+      "name": "credit",
+      "score": 56.45,
+      "weight": 0.18,
+      "contrib": 1.161
+    },
+    {
+      "name": "inflation",
+      "score": 41.91,
+      "weight": 0.14,
+      "contrib": -1.1326
+    },
+    {
+      "name": "geopolitics",
+      "score": 39.58,
+      "weight": 0.08,
+      "contrib": -0.8336
+    },
+    {
+      "name": "growth",
+      "score": 45.77,
+      "weight": 0.16,
+      "contrib": -0.6768
+    },
+    {
+      "name": "fx_usd",
+      "score": 52.53,
+      "weight": 0.1,
+      "contrib": 0.253
+    },
+    {
+      "name": "china",
+      "score": 49.48,
+      "weight": 0.06,
+      "contrib": -0.0312
+    },
+    {
+      "name": "volatility",
+      "score": 49.78,
+      "weight": 0.1,
+      "contrib": -0.022
+    }
+  ],
+  "factor_scores": {
+    "growth": 45.77,
+    "inflation": 41.91,
+    "liquidity": 42.68,
+    "credit": 56.45,
+    "volatility": 49.78,
+    "fx_usd": 52.53,
+    "china": 49.48,
+    "geopolitics": 39.58
+  },
+  "factor_weights": {
+    "growth": 0.16,
+    "inflation": 0.14,
+    "liquidity": 0.18,
+    "credit": 0.18,
+    "volatility": 0.1,
+    "fx_usd": 0.1,
+    "china": 0.06,
+    "geopolitics": 0.08
+  },
+  "factor_contrib": {
+    "growth": -0.6768,
+    "inflation": -1.1326,
+    "liquidity": -1.3176,
+    "credit": 1.161,
+    "volatility": -0.022,
+    "fx_usd": 0.253,
+    "china": -0.0312,
+    "geopolitics": -0.8336
+  },
+  "risk_profile": {
+    "level": "neutral",
+    "label": "中性",
+    "hint": "均衡：股债均衡",
+    "band": "40-60"
+  },
+  "confidence": 0.83,
+  "briefing": {
+    "insights": [
+      "MACRO | Risk=47.4（中性）— 主驱动：liquidity / credit.",
+      "结构拆解：liquidity→风险上行主因；credit→次要驱动；inflation→尾部放大器.",
+      "动作提示：均衡：股债均衡（归档可复现；不输出观点）."
+    ],
+    "top": [
+      {
+        "title": "信用利差：关键阈值与风险点位",
+        "tag": "信用利差",
+        "factor": "credit",
+        "score": 56.45,
+        "note": "关注二阶效应：反馈链条。"
+      },
+      {
+        "title": "违约：边际变化是否持续？",
+        "tag": "违约",
+        "factor": "credit",
+        "score": 56.45,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "汇率：短周期波动 vs 中周期趋势",
+        "tag": "汇率",
+        "factor": "fx_usd",
+        "score": 52.53,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "情绪：关键阈值与风险点位",
+        "tag": "情绪",
+        "factor": "volatility",
+        "score": 49.78,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "出口：边际变化是否持续？",
+        "tag": "出口",
+        "factor": "china",
+        "score": 49.48,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "PMI：短周期波动 vs 中周期趋势",
+        "tag": "PMI",
+        "factor": "growth",
+        "score": 45.77,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "逆回购：关键阈值与风险点位",
+        "tag": "逆回购",
+        "factor": "liquidity",
+        "score": 42.68,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "流动性：边际变化是否持续？",
+        "tag": "流动性",
+        "factor": "liquidity",
+        "score": 42.68,
+        "note": "仅监控：不输出观点。"
+      },
+      {
+        "title": "CPI：结构性信号与价格背离",
+        "tag": "CPI",
+        "factor": "inflation",
+        "score": 41.91,
+        "note": "关注二阶效应：反馈链条。"
+      },
+      {
+        "title": "商品价格：短周期波动 vs 中周期趋势",
+        "tag": "商品价格",
+        "factor": "inflation",
+        "score": 41.91,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "能源：关键阈值与风险点位",
+        "tag": "能源",
+        "factor": "geopolitics",
+        "score": 39.58,
+        "note": "仅监控：不输出观点。"
+      },
+      {
+        "title": "地缘：结构性信号与价格背离",
+        "tag": "地缘",
+        "factor": "geopolitics",
+        "score": 39.58,
+        "note": "仅监控：不输出观点。"
+      }
+    ],
+    "distribution": {
+      "tags": [
+        {
+          "name": "信用利差",
+          "value": 1
+        },
+        {
+          "name": "违约",
+          "value": 1
+        },
+        {
+          "name": "汇率",
+          "value": 1
+        },
+        {
+          "name": "情绪",
+          "value": 1
+        },
+        {
+          "name": "出口",
+          "value": 1
+        },
+        {
+          "name": "PMI",
+          "value": 1
+        }
+      ],
+      "factors": [
+        {
+          "name": "credit",
+          "value": 2
+        },
+        {
+          "name": "liquidity",
+          "value": 2
+        },
+        {
+          "name": "inflation",
+          "value": 2
+        },
+        {
+          "name": "geopolitics",
+          "value": 2
+        },
+        {
+          "name": "fx_usd",
+          "value": 1
+        },
+        {
+          "name": "volatility",
+          "value": 1
+        },
+        {
+          "name": "china",
+          "value": 1
+        },
+        {
+          "name": "growth",
+          "value": 1
+        }
+      ]
+    }
+  },
+  "risk": {
+    "score": 47.4,
+    "slope": -0.4,
+    "regime": "neutral",
+    "factors": {
+      "growth": 45.77,
+      "inflation": 41.91,
+      "liquidity": 42.68,
+      "credit": 56.45,
+      "volatility": 49.78,
+      "fx_usd": 52.53,
+      "china": 49.48,
+      "geopolitics": 39.58
+    },
+    "weights": {
+      "growth": 0.16,
+      "inflation": 0.14,
+      "liquidity": 0.18,
+      "credit": 0.18,
+      "volatility": 0.1,
+      "fx_usd": 0.1,
+      "china": 0.06,
+      "geopolitics": 0.08
+    },
+    "contrib": {
+      "growth": -0.6768,
+      "inflation": -1.1326,
+      "liquidity": -1.3176,
+      "credit": 1.161,
+      "volatility": -0.022,
+      "fx_usd": 0.253,
+      "china": -0.0312,
+      "geopolitics": -0.8336
+    },
+    "confidence": 0.83
+  },
+  "meta": {
+    "timestamp": "2026-02-27T10:31:21.007638+00:00",
+    "version": "7.0-interview-killer",
+    "ema_alpha": 0.35,
+    "deterministic_key": "2026-02-27|macro",
+    "proof_hash": "eee2c09783f6cdec"
+  }
+}

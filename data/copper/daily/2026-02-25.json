@@ -1,0 +1,294 @@
+{
+  "as_of": "2026-02-25T15:26:48.184084+00:00",
+  "date": "2026-02-25",
+  "topic": "copper",
+  "risk_score": 50.84,
+  "delta_1d": -0.0,
+  "regime": "neutral",
+  "mainline_theme": "china",
+  "risk_factors": [
+    {
+      "name": "china",
+      "score": 55.48,
+      "weight": 0.18,
+      "contrib": 0.9864
+    },
+    {
+      "name": "liquidity",
+      "score": 40.94,
+      "weight": 0.1,
+      "contrib": -0.906
+    },
+    {
+      "name": "volatility",
+      "score": 56.89,
+      "weight": 0.08,
+      "contrib": 0.5512
+    },
+    {
+      "name": "geopolitics",
+      "score": 46.27,
+      "weight": 0.12,
+      "contrib": -0.4476
+    },
+    {
+      "name": "inflation",
+      "score": 47.29,
+      "weight": 0.16,
+      "contrib": -0.4336
+    },
+    {
+      "name": "credit",
+      "score": 54.17,
+      "weight": 0.1,
+      "contrib": 0.417
+    },
+    {
+      "name": "fx_usd",
+      "score": 54.28,
+      "weight": 0.08,
+      "contrib": 0.3424
+    },
+    {
+      "name": "growth",
+      "score": 51.83,
+      "weight": 0.18,
+      "contrib": 0.3294
+    }
+  ],
+  "factor_scores": {
+    "growth": 51.83,
+    "inflation": 47.29,
+    "liquidity": 40.94,
+    "credit": 54.17,
+    "volatility": 56.89,
+    "fx_usd": 54.28,
+    "china": 55.48,
+    "geopolitics": 46.27
+  },
+  "factor_weights": {
+    "growth": 0.18,
+    "inflation": 0.16,
+    "liquidity": 0.1,
+    "credit": 0.1,
+    "volatility": 0.08,
+    "fx_usd": 0.08,
+    "china": 0.18,
+    "geopolitics": 0.12
+  },
+  "factor_contrib": {
+    "growth": 0.3294,
+    "inflation": -0.4336,
+    "liquidity": -0.906,
+    "credit": 0.417,
+    "volatility": 0.5512,
+    "fx_usd": 0.3424,
+    "china": 0.9864,
+    "geopolitics": -0.4476
+  },
+  "risk_profile": {
+    "level": "neutral",
+    "label": "中性",
+    "hint": "均衡：股债均衡",
+    "band": "40-60"
+  },
+  "confidence": 0.92,
+  "briefing": {
+    "insights": [
+      "COPPER | Risk=50.8（中性）— 主驱动：china / liquidity.",
+      "结构拆解：china→风险上行主因；liquidity→次要驱动；volatility→尾部放大器.",
+      "动作提示：均衡：股债均衡（归档可复现；不输出观点）."
+    ],
+    "top": [
+      {
+        "title": "杠杆：关键阈值与风险点位",
+        "tag": "杠杆",
+        "factor": "volatility",
+        "score": 56.89,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "波动率：结构性信号与价格背离",
+        "tag": "波动率",
+        "factor": "volatility",
+        "score": 56.89,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "政策预期：关键阈值与风险点位",
+        "tag": "政策预期",
+        "factor": "china",
+        "score": 55.48,
+        "note": "关注二阶效应：反馈链条。"
+      },
+      {
+        "title": "地产：短周期波动 vs 中周期趋势",
+        "tag": "地产",
+        "factor": "china",
+        "score": 55.48,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "外资：结构性信号与价格背离",
+        "tag": "外资",
+        "factor": "fx_usd",
+        "score": 54.28,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "违约：短周期波动 vs 中周期趋势",
+        "tag": "违约",
+        "factor": "credit",
+        "score": 54.17,
+        "note": "注意“数据发布窗”与短期噪声。"
+      },
+      {
+        "title": "就业：关键阈值与风险点位",
+        "tag": "就业",
+        "factor": "growth",
+        "score": 51.83,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "PPI：短周期波动 vs 中周期趋势",
+        "tag": "PPI",
+        "factor": "inflation",
+        "score": 47.29,
+        "note": "仅监控：不输出观点。"
+      },
+      {
+        "title": "能源：边际变化是否持续？",
+        "tag": "能源",
+        "factor": "geopolitics",
+        "score": 46.27,
+        "note": "关注二阶效应：反馈链条。"
+      },
+      {
+        "title": "供应链：短周期波动 vs 中周期趋势",
+        "tag": "供应链",
+        "factor": "geopolitics",
+        "score": 46.27,
+        "note": "仅监控：不输出观点。"
+      },
+      {
+        "title": "逆回购：关键阈值与风险点位",
+        "tag": "逆回购",
+        "factor": "liquidity",
+        "score": 40.94,
+        "note": "跟踪一致预期的拐点。"
+      },
+      {
+        "title": "利率：结构性信号与价格背离",
+        "tag": "利率",
+        "factor": "liquidity",
+        "score": 40.94,
+        "note": "关注二阶效应：反馈链条。"
+      }
+    ],
+    "distribution": {
+      "tags": [
+        {
+          "name": "杠杆",
+          "value": 1
+        },
+        {
+          "name": "波动率",
+          "value": 1
+        },
+        {
+          "name": "政策预期",
+          "value": 1
+        },
+        {
+          "name": "地产",
+          "value": 1
+        },
+        {
+          "name": "外资",
+          "value": 1
+        },
+        {
+          "name": "违约",
+          "value": 1
+        }
+      ],
+      "factors": [
+        {
+          "name": "volatility",
+          "value": 2
+        },
+        {
+          "name": "china",
+          "value": 2
+        },
+        {
+          "name": "geopolitics",
+          "value": 2
+        },
+        {
+          "name": "liquidity",
+          "value": 2
+        },
+        {
+          "name": "fx_usd",
+          "value": 1
+        },
+        {
+          "name": "credit",
+          "value": 1
+        },
+        {
+          "name": "growth",
+          "value": 1
+        },
+        {
+          "name": "inflation",
+          "value": 1
+        }
+      ]
+    }
+  },
+  "risk": {
+    "score": 50.84,
+    "slope": -0.0,
+    "regime": "neutral",
+    "factors": {
+      "growth": 51.83,
+      "inflation": 47.29,
+      "liquidity": 40.94,
+      "credit": 54.17,
+      "volatility": 56.89,
+      "fx_usd": 54.28,
+      "china": 55.48,
+      "geopolitics": 46.27
+    },
+    "weights": {
+      "growth": 0.18,
+      "inflation": 0.16,
+      "liquidity": 0.1,
+      "credit": 0.1,
+      "volatility": 0.08,
+      "fx_usd": 0.08,
+      "china": 0.18,
+      "geopolitics": 0.12
+    },
+    "contrib": {
+      "growth": 0.3294,
+      "inflation": -0.4336,
+      "liquidity": -0.906,
+      "credit": 0.417,
+      "volatility": 0.5512,
+      "fx_usd": 0.3424,
+      "china": 0.9864,
+      "geopolitics": -0.4476
+    },
+    "confidence": 0.92
+  },
+  "meta": {
+    "timestamp": "2026-02-25T15:26:48.184084+00:00",
+    "version": "7.0-interview-killer",
+    "ema_alpha": 0.35,
+    "deterministic_key": "2026-02-25|copper",
+    "proof_hash": "f3bd0dc99b9d927d"
+  }
+}
