@@ -1,10 +1,10 @@
 {
-  "build_id": "6d347c8daa33",
-  "timestamp": "2026-02-25T08:49:41.168451+00:00",
-  "risk_score": 61.442,
-  "regime": "neutral",
-  "headline": "[neutral] risk=61.4 mainline=geopolitics hhi=60.7",
-  "flags": [
-    "mainline_diversifying"
-  ]
+  "date": "2026-02-25",
+  "build_id": "20260225_132921",
+  "ok": true,
+  "items_total": 300,
+  "items_error": 0,
+  "risk_total": 18,
+  "signals": 0,
+  "elapsed_sec": 6.68
 }
