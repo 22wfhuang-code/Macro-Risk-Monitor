@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="140" viewBox="0 0 520 140">
+  <rect x="0" y="0" width="520" height="140" fill="#0b0f14"/>
+  <text x="20" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="16" fill="#e6edf3">Risk Thermometer — risk_off (68.9)</text>
+
+  <rect x="20" y="55" width="360" height="22" rx="6" fill="#1f2630"/>
+  <rect x="20" y="55" width="248" height="22" rx="6" fill="#9fe870"/>
+
+  <text x="390" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14" fill="#e6edf3">68.9/100</text>
+
+  <text x="20" y="105" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="12" fill="#9aa4ad">0</text>
+  <text x="195" y="105" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="12" fill="#9aa4ad">50</text>
+  <text x="365" y="105" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="12" fill="#9aa4ad">100</text>
+
+  <text x="20" y="128" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="12" fill="#9aa4ad">file: site/risk_thermometer.svg</text>
+</svg>
